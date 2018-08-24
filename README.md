@@ -16,3 +16,10 @@ CH#2
 2. LogEmailinBlob
 3. RegisterUserAndSendEmailWithAttachment
 4. RegisterUserAndSendSms
+
+CH#3
+1.  LocateMaleFemaleFaces.cs
+1.1 UploadPicToBlob.cs
+2.  SaveJsonToSqlAzureDatabase.cs
+3.  ProcessJsonFileFromOneDrive.cs --> Function not working for now
+4.  Logic App > Azure Logic App 
