@@ -37,26 +37,25 @@ namespace CH3.Functions
                 {
                     Mail mail = new Mail()
                     {
-                        Subject = $"Thanks {tweet.Name} with followers {tweet.FollowersCount} has posted a tweet!"
+                        Subject = $"{tweet.Name} with  {tweet.FollowersCount} followers has posted a tweet!"
 
                     };
 
                     Content content = new Content
                     {
                         Type = "text/plain",
-                        Value = $" Tweet Content : {tweetData.TweetText}"
+                        Value = $" Tweet Content : {tweet.TweetText}"
                     };
+
+                    mail.AddContent(content);
 
                     var personalization = new Personalization();
                     personalization.AddTo(new Email(System.Environment.GetEnvironmentVariable("EmailTo")));
+                    mail.AddPersonalization(personalization);
 
                     await message.AddAsync(mail);
 
                 }
-                //else
-                //{
-                //    message = null;
-                //}
 
                 return req.CreateResponse(HttpStatusCode.OK);
 
