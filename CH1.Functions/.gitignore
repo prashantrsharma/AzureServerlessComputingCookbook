@@ -7,6 +7,9 @@ local.settings.json
 # Azure Functions host file
 host.json
 
+# Azure Functions publish profile file
+*PublishProfiles
+
 # User-specific files
 *.suo
 *.user
