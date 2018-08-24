@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CH1.Functions", "CH1.Functi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CH2.Functions", "CH2.Functions\CH2.Functions.csproj", "{4EE39110-8FDE-4187-A406-3C472E4B096E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CH3.Functions", "CH3.Functions\CH3.Functions.csproj", "{C6773148-0534-43FC-8524-1635050539E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CH3.Functions", "CH3.Functions\CH3.Functions.csproj", "{C6773148-0534-43FC-8524-1635050539E1}"
+EndProject
+Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "TwitterLogicApp", "TwitterLogicApp\TwitterLogicApp.deployproj", "{D8F1C7E7-AD83-4387-96D3-1CB98CECFE86}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{C6773148-0534-43FC-8524-1635050539E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C6773148-0534-43FC-8524-1635050539E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C6773148-0534-43FC-8524-1635050539E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8F1C7E7-AD83-4387-96D3-1CB98CECFE86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8F1C7E7-AD83-4387-96D3-1CB98CECFE86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8F1C7E7-AD83-4387-96D3-1CB98CECFE86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8F1C7E7-AD83-4387-96D3-1CB98CECFE86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
