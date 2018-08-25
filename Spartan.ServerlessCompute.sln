@@ -11,6 +11,16 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CH3.Functions", "CH3.Functi
 EndProject
 Project("{151D2E53-A2C4-4D7D-83FE-D05416EBD58E}") = "TwitterLogicApp", "TwitterLogicApp\TwitterLogicApp.deployproj", "{D8F1C7E7-AD83-4387-96D3-1CB98CECFE86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CH4.Functions", "CH4.Functions\CH4.Functions.csproj", "{7500CC50-C1C5-4FCA-A8B4-772ED46C0217}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CH5.Functions", "CH5.Functions\CH5.Functions.csproj", "{DD6552D4-209F-4D9A-AF4B-975239972C42}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CH6.Functions", "CH6.Functions\CH6.Functions.csproj", "{CF764EC3-83EA-46E1-BC76-EEA70ED77A69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CH9.Functions", "CH9.Functions\CH9.Functions.csproj", "{A17FB04E-2EFE-47C3-BB06-BA1067EB4DAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpartanEventHubConsoleApp", "SpartanEventHubConsoleApp\SpartanEventHubConsoleApp.csproj", "{1469C782-65B4-49A7-B91C-1C9B13C3C3A5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +43,26 @@ Global
 		{D8F1C7E7-AD83-4387-96D3-1CB98CECFE86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8F1C7E7-AD83-4387-96D3-1CB98CECFE86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8F1C7E7-AD83-4387-96D3-1CB98CECFE86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7500CC50-C1C5-4FCA-A8B4-772ED46C0217}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7500CC50-C1C5-4FCA-A8B4-772ED46C0217}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7500CC50-C1C5-4FCA-A8B4-772ED46C0217}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7500CC50-C1C5-4FCA-A8B4-772ED46C0217}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD6552D4-209F-4D9A-AF4B-975239972C42}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD6552D4-209F-4D9A-AF4B-975239972C42}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD6552D4-209F-4D9A-AF4B-975239972C42}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD6552D4-209F-4D9A-AF4B-975239972C42}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF764EC3-83EA-46E1-BC76-EEA70ED77A69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF764EC3-83EA-46E1-BC76-EEA70ED77A69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF764EC3-83EA-46E1-BC76-EEA70ED77A69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF764EC3-83EA-46E1-BC76-EEA70ED77A69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A17FB04E-2EFE-47C3-BB06-BA1067EB4DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A17FB04E-2EFE-47C3-BB06-BA1067EB4DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A17FB04E-2EFE-47C3-BB06-BA1067EB4DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A17FB04E-2EFE-47C3-BB06-BA1067EB4DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1469C782-65B4-49A7-B91C-1C9B13C3C3A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1469C782-65B4-49A7-B91C-1C9B13C3C3A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1469C782-65B4-49A7-B91C-1C9B13C3C3A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1469C782-65B4-49A7-B91C-1C9B13C3C3A5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
