@@ -1,0 +1,3 @@
+﻿CH# 5 : Exploring Testing Tools for the Validation of Azure Functions
+
+-- Testing and validating Azure Function responsiveness using Application Insights
